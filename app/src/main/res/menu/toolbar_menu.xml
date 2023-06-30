@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pauseButton"
+        android:icon="@drawable/baseline_pause_circle_outline_24"
+        android:title="pause"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/undoButton"
+        android:icon="@drawable/baseline_undo_24"
+        android:title="undo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/level1select"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Level 1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/level2select"
+        android:checkable="true"
+        android:title="Level 2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/level3select"
+        android:checkable="true"
+        android:title="Level 3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/restartGame"
+        android:icon="@drawable/baseline_restart_alt_24"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tutVideo"
+        android:title="Play Tutorial Video" />
+</menu>
